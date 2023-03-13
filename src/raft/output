@@ -1,0 +1,98 @@
+000000 INFO S0: start successfully
+000000 INFO S1: start successfully
+000000 INFO S2: start successfully
+Test (2A): election after network failure ...
+010084 VOTE S2: start a election
+010088 LEAD S2: get a vote
+010088 VOTE S2: become the leader
+010088 LEAD S2: get a vote
+010089 LEAD S2: get a vote
+011163 VOTE S1: start a election
+011167 LEAD S1: get a vote
+011168 VOTE S1: become the leader
+011168 LEAD S1: get a vote
+011168 LEAD S1: get a vote
+011990 VOTE S0: start a election
+011992 LEAD S0: get a vote
+011993 VOTE S0: become the leader
+011993 LEAD S0: get a vote
+011994 LEAD S0: get a vote
+015248 ERRO S0: sending appendEntries
+017096 ERRO S0: sending appendEntries
+019684 VOTE S1: start a election
+019686 LEAD S1: get a vote
+019687 VOTE S1: become the leader
+019688 LEAD S1: get a vote
+019866 VOTE S2: start a election
+019868 LEAD S2: get a vote
+019868 VOTE S2: become the leader
+019870 LEAD S2: get a vote
+020154 VOTE S1: start a election
+020155 VOTE S1: start a election
+020157 LEAD S1: get a vote
+020157 VOTE S1: become the leader
+020158 LEAD S1: get a vote
+020805 ERRO S0: sending appendEntries
+021631 ERRO S0: sending appendEntries
+023780 ERRO S0: sending appendEntries
+023812 ERRO S0: sending appendEntries
+024389 ERRO S0: sending appendEntries
+024709 ERRO S1: sending appendEntries
+025137 ERRO S0: sending appendEntries
+027307 ERRO S0: sending appendEntries
+029141 VOTE S0: start a election
+029143 LEAD S0: get a vote
+029143 VOTE S0: become the leader
+029330 ERRO S0: sending appendEntries
+029399 VOTE S2: start a election
+031745 ERRO S1: sending appendEntries
+032970 ERRO S2: Sending a request
+033457 ERRO S0: sending appendEntries
+034504 ERRO S1: sending appendEntries
+034566 ERRO S0: sending appendEntries
+034611 ERRO S2: Sending a request
+035647 ERRO S0: sending appendEntries
+036372 ERRO S2: Sending a request
+036441 ERRO S0: sending appendEntries
+036740 ERRO S1: sending appendEntries
+036931 ERRO S1: sending appendEntries
+037584 VOTE S2: start a election
+038488 ERRO S0: sending appendEntries
+038667 ERRO S0: sending appendEntries
+038993 ERRO S0: Sending a request
+039101 ERRO S0: sending appendEntries
+039123 ERRO S1: sending appendEntries
+039161 ERRO S0: sending appendEntries
+039211 ERRO S1: sending appendEntries
+039233 ERRO S0: sending appendEntries
+039261 ERRO S0: sending appendEntries
+039582 ERRO S0: sending appendEntries
+040572 ERRO S1: sending appendEntries
+041191 ERRO S1: sending appendEntries
+041834 ERRO S1: sending appendEntries
+042093 ERRO S1: sending appendEntries
+042114 ERRO S0: sending appendEntries
+042752 ERRO S0: sending appendEntries
+043211 ERRO S1: Sending a request
+043466 ERRO S1: sending appendEntries
+044034 ERRO S1: sending appendEntries
+044426 ERRO S1: sending appendEntries
+044522 ERRO S0: sending appendEntries
+045312 ERRO S1: sending appendEntries
+045312 ERRO S1: sending appendEntries
+045617 ERRO S1: sending appendEntries
+046095 ERRO S0: sending appendEntries
+046816 VOTE S2: start a election
+046865 ERRO S1: sending appendEntries
+047594 ERRO S1: sending appendEntries
+047982 ERRO S1: sending appendEntries
+048312 ERRO S1: sending appendEntries
+048610 ERRO S1: sending appendEntries
+048660 INFO S0: Been killed
+048660 INFO S1: Been killed
+048660 INFO S2: Been killed
+--- FAIL: TestReElection2A (4.87s)
+    config.go:426: expected no leader, but 0 claims to be leader
+FAIL
+exit status 1
+FAIL	6.824/raft	4.869s
